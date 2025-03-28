@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #ceeafa ;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.linija{
+    height: 70px;
+    background-color: white;
+}
+
+.poga{
+    background-color: #8dc9eb ;
+}
