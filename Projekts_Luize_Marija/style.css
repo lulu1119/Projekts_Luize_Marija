@@ -19,3 +19,48 @@ h1 {
 .poga{
     background-color: #8dc9eb ;
 }
+
+
+
+.w {
+    background-image: url(image2.png);
+    }
+    
+    .a {
+    background-image: url(image3.png);
+    }
+    
+    .s {
+    background-image: url(image4.png);
+    }
+    
+    .d {
+      background-image: url(image5.png);
+    }
+    
+    .j {
+      background-image: url(image6.png);
+    }
+    
+    .k {
+      background-image: url(image7.png);
+    }
+    
+    
+    .set {
+      margin: 10% auto;
+    }
+
+
+    .drum {
+        outline: none;
+        border: 5px solid #404B69;
+        line-height: 2;
+        font-weight: 900;
+        border-radius: 15px;
+        display: inline-block;
+        width: 110px;
+        height: 110px;
+        margin: 10px;
+      }
+      
