@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spēle</title>
     <link rel="stylesheet" href="style.css">
-    <title>Atmiņas spēle</title>
 </head>
-
 <body>
-    <div class="linija">
-        <h1 id="title">Atmiņas spēle</h1>
+    <div class="container">
+        <h1>Atmiņas spēle</h1>
+        <p>Pagrieizienu skaits: <span id="moves">0</span>
+        <p>Laiks: <span id="timer">0</span> sekundes</p>
+        <div id="gameBoard"></div>
+        <button id="restart">Spēlēt atkārtoti</button>
     </div>
 
 
-    <div class="pogas">
-        <button class="atkartoti">Spēlēt atkārtoti</button>
-    </div>
-
-    <div class="game-board">
-        
-    </div>
+    <div class="set">
+        <button class="w drum"></button>
+        <button class="a drum"></button>
+        <button class="s drum"></button>
+        <button class="d drum"></button>
+        <button class="j drum"></button>
+        <button class="k drum"></button>
+      </div>
+      
     <script src="script.js"></script>
 </body>
 </html>
