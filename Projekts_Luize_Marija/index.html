@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="lv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spēle</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Spēles</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Atmiņas spēle</h1>
-        <p>Pagrieizienu skaits: <span id="moves">0</span>
-        <p>Laiks: <span id="timer">0</span> sekundes</p>
-        <div id="gameBoard"></div>
-        <button id="restart">Spēlēt atkārtoti</button>
+  <div class="header">
+    <div class="input-box">
+      <label for="userName">Ievadi savu vārdu:</label>
+      <input type="text" id="userName" placeholder="Tavs vārds">
     </div>
+    <div class="datetime">
+      <span id="dateTime">Datums, gads, laiks</span>
+    </div>
+  </div>
+
+  <h1>Spēles</h1>
 
 
-    <div class="set">
-        <button class="w drum"></button>
-        <button class="a drum"></button>
-        <button class="s drum"></button>
-        <button class="d drum"></button>
-        <button class="j drum"></button>
-        <button class="k drum"></button>
-      </div>
-      
-    <script src="script.js"></script>
+  <h2 id="question" style="display: none;">(ievadītais vārds), vai gribi uzspēlēt atmiņas spēli?</h2>
+
+<div class="radio-group" id="radioGroup" style="display: none;">
+  <label><input type="radio" name="choice" value="no"> Nē</label>
+  <label><input type="radio" name="choice" value="yes"> Jā</label>
+</div>
+
+<button onclick="saktSpeli()" id="startButton" style="display: none;">Sākt spēli</button>
+
+
+
+  <script src="script.js"></script>
 </body>
 </html>
