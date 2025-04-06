@@ -3,28 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spēle</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Atmiņas spēle</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Atmiņas spēle</h1>
-        <p>Pagrieizienu skaits: <span id="moves">0</span>
-        <p>Laiks: <span id="timer">0</span> sekundes</p>
-        <div id="gameBoard"></div>
+    <h1 class="game-title">Atmiņas spēle</h1>
+
+    <div class="top-bar">
         <button id="restart">Spēlēt atkārtoti</button>
+        <div class="info">Laiks: <span id="time">0</span> s</div>
+        <div class="info">Pagriezienu skaits: <span id="turns">0</span></div>
     </div>
-
-
-    <div class="set">
-        <button class="w drum"></button>
-        <button class="a drum"></button>
-        <button class="s drum"></button>
-        <button class="d drum"></button>
-        <button class="j drum"></button>
-        <button class="k drum"></button>
-      </div>
-      
-    <script src="script.js"></script>
+    <div class="game-container" id="game-board">
+        <!-- Kartiņas tiks ģenerētas šeit -->
+    </div>
+    <script src="script2.js"></script>
 </body>
 </html>
