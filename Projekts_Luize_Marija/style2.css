@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d4f3fc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-title {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.top-bar button {
+    background-color: #8edcfb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.game-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 20px;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card.flipped[data-color="aqua"] { background-color: #a4e9ec; }
+.card.flipped[data-color="green"] { background-color: #a0e7a0; }
+.card.flipped[data-color="purple"] { background-color: #d9a9ec; }
+.card.flipped[data-color="beige"] { background-color: #e8d0a9; }
+.card.flipped[data-color="yellow"] { background-color: #ece9a4; }
+.card.flipped[data-color="pink"] { background-color: #e9a4a4; }
+
+
+
