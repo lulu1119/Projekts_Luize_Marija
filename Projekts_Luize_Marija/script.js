@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const userNameInput = document.getElementById("userName");
+    const userNameInput = document.getElementById("lietotajs");
     const question = document.getElementById("question");
     const radioGroup = document.getElementById("radioGroup");
     const startButton = document.getElementById("startButton");
-    const dateTime = document.getElementById("dateTime");
+    const laiks = document.getElementById("laiks");
 
     // Rāda datumu un laiku
     const now = new Date();
-    dateTime.textContent = now.toLocaleString("lv-LV");
+    laiks.textContent = now.toLocaleString("lv-LV");
 
     // Kad tiek ievadīts vārds
 
