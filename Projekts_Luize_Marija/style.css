@@ -1,84 +1,83 @@
 body {
-    background-color: #c9f2ff;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-  }
+  background-color: #c9f2ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
 
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 100%;
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    position: relative;
-  }
-  
-  .input-box {
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
-    margin-bottom: 60px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.input-box {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  margin-bottom: 60px;
 
 }
-  
-  .datetime {
-    font-size: 14px;
-    margin-left: auto;
-  }
- 
-  
-  
-  .input-box label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .input-box input {
-    padding: 8px;
-    border-radius: 10px;
-    border: none;
-    width: 200px;
-    text-align: center;
-  }
 
-  
-  h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding-top: 20px;      
-  }
-  
-  h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 40px;
-  }
-  
-  .radio-group {
-    margin: 20px 0;
-    font-size: 18px;
-  }
-  
-  .radio-group label {
-    display: block;
-    margin: 10px 0;
-  }
-  
-  button {
-    background-color: #5bcfff;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 30px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
+.laiks {
+  font-size: 14px;
+  margin-left: auto;
+}
+
+
+
+.input-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 20px;      
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.radio-group {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.radio-group label {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #5bcfff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
