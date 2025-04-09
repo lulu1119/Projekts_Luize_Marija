@@ -1,16 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const userNameInput = document.getElementById("lietotajs");
+    const userNameInput = document.getElementById("userName");
     const question = document.getElementById("question");
     const radioGroup = document.getElementById("radioGroup");
     const startButton = document.getElementById("startButton");
-    const laiks = document.getElementById("laiks");
+    const dateTime = document.getElementById("dateTime");
 
     // Rāda datumu un laiku
     const now = new Date();
-    laiks.textContent = now.toLocaleString("lv-LV");
+    dateTime.textContent = now.toLocaleString("lv-LV");
 
     // Kad tiek ievadīts vārds
-
     userNameInput.addEventListener("keydown", (event) => {
         if (event.key === "Enter") {
             const name = userNameInput.value.trim();
@@ -21,8 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     });
-    
-
     // Parāda pogu, ja izvēlēts "Jā"
     radioGroup.addEventListener("change", () => {
         const choice = document.querySelector('input[name="choice"]:checked').value;
