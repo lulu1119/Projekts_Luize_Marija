@@ -2,23 +2,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #d4f3fc;
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.game-title {
+.virsraksts {
+    height: auto;
+    width: 100%;
+    padding: 6px;
+    margin-top: 15px;
     background-color: white;
-    padding: 20px 0;
+    font-size: 52px;
     text-align: center;
-    font-size: 32px;
-    margin: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid #ddd;
 }
 
-.top-bar {
+.infoDala {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,29 +27,30 @@ body {
     margin: 20px 0;
 }
 
-.top-bar button {
+.infoDala button {
     background-color: #8edcfb;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.info {
-    font-size: 18px;
+.laiksUnPagrieziens {
+    font-size: 20px;
     font-weight: bold;
 }
 
-.game-container {
+.galds {
     background-color: white;
-    padding: 30px;
+    padding: 35px;
     border-radius: 30px;
     display: grid;
-    grid-template-columns: repeat(4, 80px);
+    grid-template-columns: repeat(4, 80px);  /*norāda kolonnu skaitu un platumu režģa izkārtojumā.*/
     gap: 20px;
 }
+
 
 
 .card {
@@ -60,7 +61,7 @@ body {
     cursor: pointer;
     transition: transform 0.5s;
     position: relative;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d;  /*rotācija 3D telpā*/
 }
 
 .card img {
