@@ -6,27 +6,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <div class="header">
     <div class="input-box">
       <label for="userName">Ievadi savu vārdu:</label>
-      <input type="text" id="userName" placeholder="Tavs vārds">
+      <input type="text" id="lietotajs" placeholder="Pēc ievades spied Enter">
     </div>
     <div class="datetime">
-      <span id="dateTime">Datums, gads, laiks</span>
+      <span id="dateTime"></span>
     </div>
   </div>
 
   <h1>Spēles</h1>
- <h2 id="question" style="display: none;">, vai gribi uzspēlēt atmiņas spēli?</h2>
 
-<div class="radio-group" id="radioGroup" style="display: none;">
-  <label><input type="radio" name="choice" value="no"> Nē</label>
-  <label><input type="radio" name="choice" value="yes"> Jā</label>
-</div>
+  <h2 id="jautajums" style="display: none;"></h2>
 
-<button onclick="saktSpeli()" id="startButton" style="display: none;">Sākt spēli</button>
+  <div class="radioGrupa" id="radioGrupa" style="display: none;">
+    <label><input type="radio" name="choice" value="no" id="neIzvele"> Nē</label>
+    <label><input type="radio" name="choice" value="yes" id="jaIzvele"> Jā</label><br><br>
+  </div>
 
-
+  <p><button id="poga" style="display: none;">Sākt spēli</button></p>
 
   <script src="script.js"></script>
 </body>
